@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testing.org/testng-1.0.dtd">
+
+<suite name = "JS" parallel ="false">
+    <parameter name="url" value = "https://www.amazon.com"></parameter>
+    <parameter name="url" value="https://www.youtube.com/"></parameter>
+    <parameter name="url" value="https://www.ebay.com"></parameter>
+    <parameter name="url" value="https://robinhood.com/login"></parameter>
+    <parameter name="url" value="https://www.costco.com/"></parameter>
+    <parameter name="url" value="https://www.gamestop.com"></parameter>
+    <test name = "amazon.home">
+
+        <classes>
+            <class name = "JS.Aotumate"></class>
+            <class name="JS.NewPage"></class>
+        </classes>
+
+    </test>
+
+</suite>
